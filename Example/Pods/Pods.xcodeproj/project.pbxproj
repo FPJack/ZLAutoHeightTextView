@@ -1,0 +1,1071 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AE1FFAA4390B36294D9A3C1E9A2D181 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BC96F34E43FA0A3AE93B3C2C4595E5 /* XCTest.framework */; };
+		12C8FD3D06F867281B3C87497145DC65 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267AEE0BF1514767DD64B50559013EB3 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		33E349E32C64A93B3CAC6A2667583E98 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6B5E773973965C73BC40D4388B4C07 /* QuartzCore.framework */; };
+		3777A70A61ED49FCDDB07BE5F0A1C4B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4138A0A13FF7F7B73435E87E54C56C18 /* UIKit.framework */; };
+		37DCC43FA825F5F490E7C284231164A7 /* Pods-ZLAutoHeightTextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C2F690F633DEA3E601AA867AA4B8E5 /* Pods-ZLAutoHeightTextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BF27A2A6F27DCE9645039383FCE19F0 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55D9D4D1609F1F4929E1BA1A1B562445 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		593CC778281D0C5DAFD70A5E285DA86A /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		64066CA793C90CA645A6D2031654D2CC /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6AA72B40FA13B31E708831737166CB8C /* Pods-ZLAutoHeightTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8D28FE295965321D16D339A729C4DC /* Pods-ZLAutoHeightTextView_Example-dummy.m */; };
+		76085620117E839C450E794DB3773D79 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		766F6429966FBFF2E2E6A2991BDAFDA9 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		7CA66236CDA347ACA342DBCAA0F75C7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		7E21636933C4070F6868D6435E4F758F /* Pods-ZLAutoHeightTextView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 980826DF0397C9290A3414099C6607D8 /* Pods-ZLAutoHeightTextView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		847AE1132F7A25E300DEEC10 /* ZLAutoHeightTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847AE1122F7A25E300DEEC10 /* ZLAutoHeightTextView.m */; };
+		847AE1142F7A25E300DEEC10 /* ZLAutoHeightTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 847AE1112F7A25E300DEEC10 /* ZLAutoHeightTextView.h */; };
+		8FD1AB468AF7F87112C3674006F6BC6E /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		AEFB700F9EE77EE9848A8AC8C3F00A7F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		B6B4B1C6B5A80C7F23DC2D9BF62FAA9D /* Pods-ZLAutoHeightTextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F4967393F4EC993C98995A626FF1E4 /* Pods-ZLAutoHeightTextView_Tests-dummy.m */; };
+		CE0DC4614B4FF855B2101D7F74A710AC /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		CF65A6A0F5F9A6A9FBF5501610AAD758 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA747A80391988F1202FF4989A0E12CF /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC69BC90E7F9CFDEB3ED1CDF74815DC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		E4F6CF5EA1B12C55385D3CDC6BD1F4D8 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E759C2EC9B730E3C9C562BBB533B85DC /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		EA5924031A71EF807EC467903E26FAC0 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		F435FDD8BF2F79C7176EA85FEA3C3B2A /* ZLAutoHeightTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916E89FCD7E6C90B18C861973F771C6 /* ZLAutoHeightTextView-dummy.m */; };
+		F4367655D9EF5708D8FA7267A20E0CB1 /* ZLAutoHeightTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C25FD90824CD326F9A4F1848225C45 /* ZLAutoHeightTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6F4A2BAD57B39814BBED49AF60897E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		F708A3A053EC07196A38EFE0C003F0BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		F822382AB9E7B343C04964B313B1743D /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		164F5AF7B04E7EC6136C3A865F296DC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAD1513D712EBBF8A9C0E760BB35CC6C;
+			remoteInfo = "Pods-ZLAutoHeightTextView_Example";
+		};
+		45CB925609A0490C1D07DB29C1311CC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16AC6472EB36B66403FFD0671791B1C5;
+			remoteInfo = ZLAutoHeightTextView;
+		};
+		5CE1B2CB8B339F1D4D4D71C491A68AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F4967393F4EC993C98995A626FF1E4 /* Pods-ZLAutoHeightTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLAutoHeightTextView_Tests-dummy.m"; sourceTree = "<group>"; };
+		0DDFA0F689EF50E2F0D2474024651BFD /* ZLAutoHeightTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZLAutoHeightTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E5426B28215D98C0243E4D683B492B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		26BC96F34E43FA0A3AE93B3C2C4595E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		2EE71B3CF9EFE819A207969EE0B024A3 /* Pods-ZLAutoHeightTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLAutoHeightTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		33FCC9283EDC11625343384FE6D43CCD /* Pods-ZLAutoHeightTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLAutoHeightTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		4132D4EF96AB16C7FA5CA1277049E18C /* Pods-ZLAutoHeightTextView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLAutoHeightTextView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4138A0A13FF7F7B73435E87E54C56C18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		439946AADA6B164633AFC909DC03A201 /* ZLAutoHeightTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZLAutoHeightTextView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		57AF3B33EF15E69D7A118F9AE8409714 /* Pods-ZLAutoHeightTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLAutoHeightTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6B5E773973965C73BC40D4388B4C07 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		607CEA7D5D40DAB21CEB36D3F811D177 /* Pods-ZLAutoHeightTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLAutoHeightTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		60AD7EF3AF1388495E9BA583D3638D05 /* Pods-ZLAutoHeightTextView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLAutoHeightTextView_Tests-Info.plist"; sourceTree = "<group>"; };
+		628F09809C5181FB78E861B22B0D3682 /* ZLAutoHeightTextView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLAutoHeightTextView.debug.xcconfig; sourceTree = "<group>"; };
+		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		7F1541864130E29747DEB548A0DEA011 /* Pods-ZLAutoHeightTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLAutoHeightTextView_Tests.modulemap"; sourceTree = "<group>"; };
+		847AE1112F7A25E300DEEC10 /* ZLAutoHeightTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZLAutoHeightTextView.h; path = ZLAutoHeightTextView/Classes/ZLAutoHeightTextView.h; sourceTree = "<group>"; };
+		847AE1122F7A25E300DEEC10 /* ZLAutoHeightTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZLAutoHeightTextView.m; path = ZLAutoHeightTextView/Classes/ZLAutoHeightTextView.m; sourceTree = "<group>"; };
+		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8A1F2A8304462D343128BE88A6B595C4 /* Pods-ZLAutoHeightTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLAutoHeightTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		8E8EFF8B9BD2E00800D72F7CAD01BB1A /* Pods-ZLAutoHeightTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLAutoHeightTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		918756D431721640A1ABEA51F3044A98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		963ED422A9A8AC883936E33772B23C10 /* ZLAutoHeightTextView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZLAutoHeightTextView-Info.plist"; sourceTree = "<group>"; };
+		980826DF0397C9290A3414099C6607D8 /* Pods-ZLAutoHeightTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLAutoHeightTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9916E89FCD7E6C90B18C861973F771C6 /* ZLAutoHeightTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLAutoHeightTextView-dummy.m"; sourceTree = "<group>"; };
+		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A114C9A0FC15976D3CA34330324E21E8 /* ZLAutoHeightTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLAutoHeightTextView-prefix.pch"; sourceTree = "<group>"; };
+		A3C25FD90824CD326F9A4F1848225C45 /* ZLAutoHeightTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLAutoHeightTextView-umbrella.h"; sourceTree = "<group>"; };
+		A9E75DC613F954AC5D5D5784A55A133D /* ZLAutoHeightTextView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLAutoHeightTextView.release.xcconfig; sourceTree = "<group>"; };
+		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		B2329D4C8D6E117182B316A3FA1A0461 /* ZLAutoHeightTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLAutoHeightTextView.modulemap; sourceTree = "<group>"; };
+		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D31BAF464330AEE2663E3FFA65C9845D /* Pods-ZLAutoHeightTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLAutoHeightTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D4DB93B8D35B9F6B5CC3307C71F881A6 /* Pods-ZLAutoHeightTextView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLAutoHeightTextView_Example-Info.plist"; sourceTree = "<group>"; };
+		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		DB4C5410E548CC421EDB2830D8C83DC6 /* Pods_ZLAutoHeightTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLAutoHeightTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB82B732D5AD18644DD32AB8A57B876F /* Pods-ZLAutoHeightTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLAutoHeightTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E4FB2408B40786C2103B7BCB4434DE45 /* Pods-ZLAutoHeightTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLAutoHeightTextView_Example.modulemap"; sourceTree = "<group>"; };
+		EE41E719B80FA0B34C8D74D1B8B89145 /* Pods-ZLAutoHeightTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLAutoHeightTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F210C9DB0A30C9ABDB539901307EA3E9 /* Pods_ZLAutoHeightTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLAutoHeightTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C2F690F633DEA3E601AA867AA4B8E5 /* Pods-ZLAutoHeightTextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLAutoHeightTextView_Example-umbrella.h"; sourceTree = "<group>"; };
+		FB8D28FE295965321D16D339A729C4DC /* Pods-ZLAutoHeightTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLAutoHeightTextView_Example-dummy.m"; sourceTree = "<group>"; };
+		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70C797A04F08DEBE91681F3CE1C5044D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F708A3A053EC07196A38EFE0C003F0BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DD744CCA9074ADE5C415F4CE585C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F4A2BAD57B39814BBED49AF60897E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98BC440CA96A0C74FE20742C26FF53BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA66236CDA347ACA342DBCAA0F75C7A /* Foundation.framework in Frameworks */,
+				33E349E32C64A93B3CAC6A2667583E98 /* QuartzCore.framework in Frameworks */,
+				3777A70A61ED49FCDDB07BE5F0A1C4B4 /* UIKit.framework in Frameworks */,
+				0AE1FFAA4390B36294D9A3C1E9A2D181 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A51C6558F8D2553FCC76E5B0B8F5E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC69BC90E7F9CFDEB3ED1CDF74815DC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E7B1D521B30565CEF36BAC08501D3C6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0E5426B28215D98C0243E4D683B492B5 /* LICENSE */,
+				918756D431721640A1ABEA51F3044A98 /* README.md */,
+				439946AADA6B164633AFC909DC03A201 /* ZLAutoHeightTextView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0EC656BE9E4A8C12D617687FBC44AF1D /* Pods-ZLAutoHeightTextView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E4FB2408B40786C2103B7BCB4434DE45 /* Pods-ZLAutoHeightTextView_Example.modulemap */,
+				8A1F2A8304462D343128BE88A6B595C4 /* Pods-ZLAutoHeightTextView_Example-acknowledgements.markdown */,
+				DB82B732D5AD18644DD32AB8A57B876F /* Pods-ZLAutoHeightTextView_Example-acknowledgements.plist */,
+				FB8D28FE295965321D16D339A729C4DC /* Pods-ZLAutoHeightTextView_Example-dummy.m */,
+				D31BAF464330AEE2663E3FFA65C9845D /* Pods-ZLAutoHeightTextView_Example-frameworks.sh */,
+				D4DB93B8D35B9F6B5CC3307C71F881A6 /* Pods-ZLAutoHeightTextView_Example-Info.plist */,
+				F5C2F690F633DEA3E601AA867AA4B8E5 /* Pods-ZLAutoHeightTextView_Example-umbrella.h */,
+				2EE71B3CF9EFE819A207969EE0B024A3 /* Pods-ZLAutoHeightTextView_Example.debug.xcconfig */,
+				33FCC9283EDC11625343384FE6D43CCD /* Pods-ZLAutoHeightTextView_Example.release.xcconfig */,
+			);
+			name = "Pods-ZLAutoHeightTextView_Example";
+			path = "Target Support Files/Pods-ZLAutoHeightTextView_Example";
+			sourceTree = "<group>";
+		};
+		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
+				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
+				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
+				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
+				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
+				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
+				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
+				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
+				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
+				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
+				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
+				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
+				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
+				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		6F75C85E94FA439CA8D637C6EF734EF9 /* ZLAutoHeightTextView */ = {
+			isa = PBXGroup;
+			children = (
+				847AE1112F7A25E300DEEC10 /* ZLAutoHeightTextView.h */,
+				847AE1122F7A25E300DEEC10 /* ZLAutoHeightTextView.m */,
+				0E7B1D521B30565CEF36BAC08501D3C6 /* Pod */,
+				BFE3022D12905CB3865ED734E17516EE /* Support Files */,
+			);
+			name = ZLAutoHeightTextView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		77D38D881AC9F487C66267AFB091BEEE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EC656BE9E4A8C12D617687FBC44AF1D /* Pods-ZLAutoHeightTextView_Example */,
+				AD4804C7F2DC004ACEB5E0FF9223858F /* Pods-ZLAutoHeightTextView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		89736692DF329F0B9BF3EFFCEA69EA54 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */,
+				5E6B5E773973965C73BC40D4388B4C07 /* QuartzCore.framework */,
+				4138A0A13FF7F7B73435E87E54C56C18 /* UIKit.framework */,
+				26BC96F34E43FA0A3AE93B3C2C4595E5 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		96AD241EC783D1EC8D601103BAE8B75A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F75C85E94FA439CA8D637C6EF734EF9 /* ZLAutoHeightTextView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AD4804C7F2DC004ACEB5E0FF9223858F /* Pods-ZLAutoHeightTextView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7F1541864130E29747DEB548A0DEA011 /* Pods-ZLAutoHeightTextView_Tests.modulemap */,
+				57AF3B33EF15E69D7A118F9AE8409714 /* Pods-ZLAutoHeightTextView_Tests-acknowledgements.markdown */,
+				8E8EFF8B9BD2E00800D72F7CAD01BB1A /* Pods-ZLAutoHeightTextView_Tests-acknowledgements.plist */,
+				09F4967393F4EC993C98995A626FF1E4 /* Pods-ZLAutoHeightTextView_Tests-dummy.m */,
+				4132D4EF96AB16C7FA5CA1277049E18C /* Pods-ZLAutoHeightTextView_Tests-frameworks.sh */,
+				60AD7EF3AF1388495E9BA583D3638D05 /* Pods-ZLAutoHeightTextView_Tests-Info.plist */,
+				980826DF0397C9290A3414099C6607D8 /* Pods-ZLAutoHeightTextView_Tests-umbrella.h */,
+				EE41E719B80FA0B34C8D74D1B8B89145 /* Pods-ZLAutoHeightTextView_Tests.debug.xcconfig */,
+				607CEA7D5D40DAB21CEB36D3F811D177 /* Pods-ZLAutoHeightTextView_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZLAutoHeightTextView_Tests";
+			path = "Target Support Files/Pods-ZLAutoHeightTextView_Tests";
+			sourceTree = "<group>";
+		};
+		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
+				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
+				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
+				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
+				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
+				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
+				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89736692DF329F0B9BF3EFFCEA69EA54 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				4BA2479549DD918290454B1CDCD0B92B /* Core */,
+				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
+				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		BFE3022D12905CB3865ED734E17516EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2329D4C8D6E117182B316A3FA1A0461 /* ZLAutoHeightTextView.modulemap */,
+				9916E89FCD7E6C90B18C861973F771C6 /* ZLAutoHeightTextView-dummy.m */,
+				963ED422A9A8AC883936E33772B23C10 /* ZLAutoHeightTextView-Info.plist */,
+				A114C9A0FC15976D3CA34330324E21E8 /* ZLAutoHeightTextView-prefix.pch */,
+				A3C25FD90824CD326F9A4F1848225C45 /* ZLAutoHeightTextView-umbrella.h */,
+				628F09809C5181FB78E861B22B0D3682 /* ZLAutoHeightTextView.debug.xcconfig */,
+				A9E75DC613F954AC5D5D5784A55A133D /* ZLAutoHeightTextView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZLAutoHeightTextView";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				96AD241EC783D1EC8D601103BAE8B75A /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				E434BE65E948473CA74A3D55B552FFBA /* Products */,
+				77D38D881AC9F487C66267AFB091BEEE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E434BE65E948473CA74A3D55B552FFBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				F210C9DB0A30C9ABDB539901307EA3E9 /* Pods_ZLAutoHeightTextView_Example.framework */,
+				DB4C5410E548CC421EDB2830D8C83DC6 /* Pods_ZLAutoHeightTextView_Tests.framework */,
+				0DDFA0F689EF50E2F0D2474024651BFD /* ZLAutoHeightTextView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6A11A4ED6C92ACA1C089260BA3F0C776 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C8FD3D06F867281B3C87497145DC65 /* FBSnapshotTestCase.h in Headers */,
+				3BF27A2A6F27DCE9645039383FCE19F0 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				76085620117E839C450E794DB3773D79 /* FBSnapshotTestCasePlatform.h in Headers */,
+				CF65A6A0F5F9A6A9FBF5501610AAD758 /* FBSnapshotTestController.h in Headers */,
+				DA747A80391988F1202FF4989A0E12CF /* UIApplication+StrictKeyWindow.h in Headers */,
+				E4F6CF5EA1B12C55385D3CDC6BD1F4D8 /* UIImage+Compare.h in Headers */,
+				F822382AB9E7B343C04964B313B1743D /* UIImage+Diff.h in Headers */,
+				64066CA793C90CA645A6D2031654D2CC /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B968F258F2AF1F1795E0E1C44DC6AE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E21636933C4070F6868D6435E4F758F /* Pods-ZLAutoHeightTextView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33053D5FE3BA84998042AEF11E54CD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847AE1142F7A25E300DEEC10 /* ZLAutoHeightTextView.h in Headers */,
+				F4367655D9EF5708D8FA7267A20E0CB1 /* ZLAutoHeightTextView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF32B3D64D970386C0256060568A746F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DCC43FA825F5F490E7C284231164A7 /* Pods-ZLAutoHeightTextView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16AC6472EB36B66403FFD0671791B1C5 /* ZLAutoHeightTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FE4DE86579E03E637CAB2B66D909F50 /* Build configuration list for PBXNativeTarget "ZLAutoHeightTextView" */;
+			buildPhases = (
+				A33053D5FE3BA84998042AEF11E54CD9 /* Headers */,
+				38DA4DCC6AFD161268D9C317E0EF8A26 /* Sources */,
+				87DD744CCA9074ADE5C415F4CE585C1B /* Frameworks */,
+				D0F4D0A40A6DFEDEEC42D4E8FF4840B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLAutoHeightTextView;
+			productName = ZLAutoHeightTextView;
+			productReference = 0DDFA0F689EF50E2F0D2474024651BFD /* ZLAutoHeightTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC516C05B9400D8A84F4CE51D02E9A3 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				6A11A4ED6C92ACA1C089260BA3F0C776 /* Headers */,
+				7D9C35C9AB822511516CD6F4A5D159B8 /* Sources */,
+				98BC440CA96A0C74FE20742C26FF53BB /* Frameworks */,
+				DF3460C426E5BF623E72782B660ED260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAD1513D712EBBF8A9C0E760BB35CC6C /* Pods-ZLAutoHeightTextView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46A7D9EAFC470ADE4FC49432BAB40590 /* Build configuration list for PBXNativeTarget "Pods-ZLAutoHeightTextView_Example" */;
+			buildPhases = (
+				BF32B3D64D970386C0256060568A746F /* Headers */,
+				97767F939B190E704291063426FB67BE /* Sources */,
+				B5A51C6558F8D2553FCC76E5B0B8F5E6 /* Frameworks */,
+				3D1D82DDBBC1701A17DD795C045EE9F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAA88B5BF4BE5B753B1553354DA21C04 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZLAutoHeightTextView_Example";
+			productName = Pods_ZLAutoHeightTextView_Example;
+			productReference = F210C9DB0A30C9ABDB539901307EA3E9 /* Pods_ZLAutoHeightTextView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D22F71180ABE17909AF1A6E59646C392 /* Pods-ZLAutoHeightTextView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E073D55752410BB20AA6D920082E2C1F /* Build configuration list for PBXNativeTarget "Pods-ZLAutoHeightTextView_Tests" */;
+			buildPhases = (
+				8B968F258F2AF1F1795E0E1C44DC6AE2 /* Headers */,
+				CB59F6276911BCF996BA6ADCFC2B84F4 /* Sources */,
+				70C797A04F08DEBE91681F3CE1C5044D /* Frameworks */,
+				3579584F31F3154F75CEF1FC5F5CCBCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFEBA2597AA196ED007CEAFBADFD56AF /* PBXTargetDependency */,
+				7F3453D7DE17D66176C1DAD405465398 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZLAutoHeightTextView_Tests";
+			productName = Pods_ZLAutoHeightTextView_Tests;
+			productReference = DB4C5410E548CC421EDB2830D8C83DC6 /* Pods_ZLAutoHeightTextView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E434BE65E948473CA74A3D55B552FFBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				BAD1513D712EBBF8A9C0E760BB35CC6C /* Pods-ZLAutoHeightTextView_Example */,
+				D22F71180ABE17909AF1A6E59646C392 /* Pods-ZLAutoHeightTextView_Tests */,
+				16AC6472EB36B66403FFD0671791B1C5 /* ZLAutoHeightTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3579584F31F3154F75CEF1FC5F5CCBCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1D82DDBBC1701A17DD795C045EE9F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F4D0A40A6DFEDEEC42D4E8FF4840B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3460C426E5BF623E72782B660ED260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38DA4DCC6AFD161268D9C317E0EF8A26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847AE1132F7A25E300DEEC10 /* ZLAutoHeightTextView.m in Sources */,
+				F435FDD8BF2F79C7176EA85FEA3C3B2A /* ZLAutoHeightTextView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D9C35C9AB822511516CD6F4A5D159B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D9D4D1609F1F4929E1BA1A1B562445 /* FBSnapshotTestCase.m in Sources */,
+				E759C2EC9B730E3C9C562BBB533B85DC /* FBSnapshotTestCase-dummy.m in Sources */,
+				AEFB700F9EE77EE9848A8AC8C3F00A7F /* FBSnapshotTestCasePlatform.m in Sources */,
+				267AEE0BF1514767DD64B50559013EB3 /* FBSnapshotTestController.m in Sources */,
+				8FD1AB468AF7F87112C3674006F6BC6E /* SwiftSupport.swift in Sources */,
+				CE0DC4614B4FF855B2101D7F74A710AC /* UIApplication+StrictKeyWindow.m in Sources */,
+				593CC778281D0C5DAFD70A5E285DA86A /* UIImage+Compare.m in Sources */,
+				766F6429966FBFF2E2E6A2991BDAFDA9 /* UIImage+Diff.m in Sources */,
+				EA5924031A71EF807EC467903E26FAC0 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97767F939B190E704291063426FB67BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA72B40FA13B31E708831737166CB8C /* Pods-ZLAutoHeightTextView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB59F6276911BCF996BA6ADCFC2B84F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B4B1C6B5A80C7F23DC2D9BF62FAA9D /* Pods-ZLAutoHeightTextView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F3453D7DE17D66176C1DAD405465398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZLAutoHeightTextView_Example";
+			target = BAD1513D712EBBF8A9C0E760BB35CC6C /* Pods-ZLAutoHeightTextView_Example */;
+			targetProxy = 164F5AF7B04E7EC6136C3A865F296DC2 /* PBXContainerItemProxy */;
+		};
+		AAA88B5BF4BE5B753B1553354DA21C04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZLAutoHeightTextView;
+			target = 16AC6472EB36B66403FFD0671791B1C5 /* ZLAutoHeightTextView */;
+			targetProxy = 45CB925609A0490C1D07DB29C1311CC8 /* PBXContainerItemProxy */;
+		};
+		DFEBA2597AA196ED007CEAFBADFD56AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 5CE1B2CB8B339F1D4D4D71C491A68AAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		189B160941C76FA2A15D741807CCB47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		399E229D571DEFD4189F4D9D04CEAE71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 607CEA7D5D40DAB21CEB36D3F811D177 /* Pods-ZLAutoHeightTextView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLAutoHeightTextView_Tests/Pods-ZLAutoHeightTextView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLAutoHeightTextView_Tests/Pods-ZLAutoHeightTextView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48DE2ADA198DD6344F2EFF0C143E959B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B82EC754984FC46F11DA12B5615BC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE41E719B80FA0B34C8D74D1B8B89145 /* Pods-ZLAutoHeightTextView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLAutoHeightTextView_Tests/Pods-ZLAutoHeightTextView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLAutoHeightTextView_Tests/Pods-ZLAutoHeightTextView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72B1850B1B4565EEDE152AC86974DDEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E75DC613F954AC5D5D5784A55A133D /* ZLAutoHeightTextView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZLAutoHeightTextView/ZLAutoHeightTextView-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ZLAutoHeightTextView/ZLAutoHeightTextView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZLAutoHeightTextView/ZLAutoHeightTextView.modulemap";
+				PRODUCT_MODULE_NAME = ZLAutoHeightTextView;
+				PRODUCT_NAME = ZLAutoHeightTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9769CB8D960FA3385B727D87C29D0E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 628F09809C5181FB78E861B22B0D3682 /* ZLAutoHeightTextView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZLAutoHeightTextView/ZLAutoHeightTextView-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ZLAutoHeightTextView/ZLAutoHeightTextView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZLAutoHeightTextView/ZLAutoHeightTextView.modulemap";
+				PRODUCT_MODULE_NAME = ZLAutoHeightTextView;
+				PRODUCT_NAME = ZLAutoHeightTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF31F4DA5A3DA0358863C860E8A7D72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33FCC9283EDC11625343384FE6D43CCD /* Pods-ZLAutoHeightTextView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLAutoHeightTextView_Example/Pods-ZLAutoHeightTextView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLAutoHeightTextView_Example/Pods-ZLAutoHeightTextView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FDCA0985D0DBED05D7BD5DF994ED82C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE71B3CF9EFE819A207969EE0B024A3 /* Pods-ZLAutoHeightTextView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLAutoHeightTextView_Example/Pods-ZLAutoHeightTextView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLAutoHeightTextView_Example/Pods-ZLAutoHeightTextView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AC516C05B9400D8A84F4CE51D02E9A3 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48DE2ADA198DD6344F2EFF0C143E959B /* Debug */,
+				189B160941C76FA2A15D741807CCB47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46A7D9EAFC470ADE4FC49432BAB40590 /* Build configuration list for PBXNativeTarget "Pods-ZLAutoHeightTextView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCA0985D0DBED05D7BD5DF994ED82C3 /* Debug */,
+				AF31F4DA5A3DA0358863C860E8A7D72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FE4DE86579E03E637CAB2B66D909F50 /* Build configuration list for PBXNativeTarget "ZLAutoHeightTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9769CB8D960FA3385B727D87C29D0E2E /* Debug */,
+				72B1850B1B4565EEDE152AC86974DDEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E073D55752410BB20AA6D920082E2C1F /* Build configuration list for PBXNativeTarget "Pods-ZLAutoHeightTextView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B82EC754984FC46F11DA12B5615BC2D /* Debug */,
+				399E229D571DEFD4189F4D9D04CEAE71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

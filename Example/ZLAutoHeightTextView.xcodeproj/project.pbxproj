@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1524FB7E52260848D0815BED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1524FB7E52260848D0815BED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2193C431E6E2251A872A9648 /* Pods_ZLAutoHeightTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLAutoHeightTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27734D9C4996C1A6058DE521 /* Pods-ZLAutoHeightTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLAutoHeightTextView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZLAutoHeightTextView_Tests/Pods-ZLAutoHeightTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3A1FCEEF420013794100873A /* Pods-ZLAutoHeightTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLAutoHeightTextView_Example.release.xcconfig"; path = "Target Support Files/Pods-ZLAutoHeightTextView_Example/Pods-ZLAutoHeightTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,8 +63,8 @@
 		67AB25465CD2E059449F6072 /* Pods_ZLAutoHeightTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLAutoHeightTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		89F8B3A15F5E9CAAC4BDD737 /* ZLAutoHeightTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZLAutoHeightTextView.podspec; path = ../ZLAutoHeightTextView.podspec; sourceTree = "<group>"; };
-		A28DA9EC6156C37C80303262 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		89F8B3A15F5E9CAAC4BDD737 /* ZLAutoHeightTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZLAutoHeightTextView.podspec; path = ../ZLAutoHeightTextView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A28DA9EC6156C37C80303262 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E541BB10E70C87BFC603C87F /* Pods-ZLAutoHeightTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLAutoHeightTextView_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZLAutoHeightTextView_Example/Pods-ZLAutoHeightTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EF701F5BDED5BB2A571F7046 /* Pods-ZLAutoHeightTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLAutoHeightTextView_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZLAutoHeightTextView_Tests/Pods-ZLAutoHeightTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				27734D9C4996C1A6058DE521 /* Pods-ZLAutoHeightTextView_Tests.debug.xcconfig */,
 				EF701F5BDED5BB2A571F7046 /* Pods-ZLAutoHeightTextView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

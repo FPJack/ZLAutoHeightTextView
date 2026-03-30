@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ZLAutoHeightTextView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZLAutoHeightTextView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ZLAutoHeightTextView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ZLAutoHeightTextView: fdb78878fe335f2b8bcceff701d6cc28469f5296
+
+PODFILE CHECKSUM: eb59a1d5729401417cc7aa204ed27eb6e8cf3232
+
+COCOAPODS: 1.16.2
