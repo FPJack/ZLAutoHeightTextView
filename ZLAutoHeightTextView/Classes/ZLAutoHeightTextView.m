@@ -89,13 +89,8 @@
 }
 
 - (void)textDidChange:(NSNotification *)notification {
-    [self.superview layoutIfNeeded];
-    [UIView animateWithDuration:0.25 animations:^{
-        [self updatePlaceholderVisibility];
-        [self updateHeight];
-    }];
-   
-    
+    [self updatePlaceholderVisibility];
+    [self updateHeight];
 }
 
 - (void)updatePlaceholderVisibility {
@@ -151,7 +146,7 @@
     if (fixedWidth <= 0) {
         fixedWidth = UIScreen.mainScreen.bounds.size.width - 32;
     }
-    
+
     CGSize sizeThatFits = [self sizeThatFits:CGSizeMake(fixedWidth, CGFLOAT_MAX)];
     return ceilf(sizeThatFits.height);
 }
