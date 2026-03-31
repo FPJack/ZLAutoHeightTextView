@@ -33,9 +33,6 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="maxHeight">
                                         <real key="value" value="100"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="minHeight">
-                                        <real key="value" value="50"/>
-                                    </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
                                         <color key="value" systemColor="systemGray2Color"/>
                                     </userDefinedRuntimeAttribute>

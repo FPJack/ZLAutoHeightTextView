@@ -45,6 +45,7 @@
     _placeholderLabel.numberOfLines = 0;
     _placeholderLabel.textColor = _placeholderColor;
     _placeholderLabel.backgroundColor = UIColor.clearColor;
+    _placeholderLabel.font = self.font;
     _placeholderLabel.translatesAutoresizingMaskIntoConstraints = NO;
     [self addSubview:_placeholderLabel];
 }
@@ -88,8 +89,13 @@
 }
 
 - (void)textDidChange:(NSNotification *)notification {
-    [self updatePlaceholderVisibility];
-    [self updateHeight];
+    [self.superview layoutIfNeeded];
+    [UIView animateWithDuration:0.25 animations:^{
+        [self updatePlaceholderVisibility];
+        [self updateHeight];
+    }];
+   
+    
 }
 
 - (void)updatePlaceholderVisibility {
